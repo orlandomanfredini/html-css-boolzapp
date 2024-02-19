@@ -11,14 +11,14 @@
 <script src="https://kit.fontawesome.com/aa1661fd5d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="app">
+    <div id="app"> <!--app mobile-->
         <div class="container">
             <div class="row">
-                <aside>
+                <aside>  <!--sidebar chat-->
                     <div class="head-content">
                         <div class="main-user space">
                             <div class="image">
-                                image
+                                <img src="./img/avatar_2.jpg" alt="Avatar 2">
                             </div>
                             <ul class="list-icon">
                                 <li><i class="fa-solid fa-rotate-right"></i></li>
@@ -27,16 +27,25 @@
                             </ul>
                         </div>
                         <div class="notify">
-                            <div class="image">
-                                image
+                            <div class="notify-icon">
+                                <i class="fa-solid fa-bell-slash"></i>
                             </div>
                             <span>
                                 <strong>Ricevi notifiche messaggi</strong>
-                                <div>Attiva notifiche su desktop</div>
+                                <div class="underline">
+                                    <a href="#">Attiva le notifiche</a>
+                                </div>
                             </span>
+                        </div>
+                        <div class="search-contact">
+                            <button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <input type="text" name="" id="" placeholder="Cerca o inizia una nuova chat">
                         </div>
                     </div>
                     <ul class="list-chat">
+                        
                         <li>chat</li>
                         <li>chat</li>
                         <li>chat</li>
@@ -47,8 +56,8 @@
                         <li>chat</li>
                     </ul>
                 </aside>
-                <main>
-                    <div class="head-chat">
+                <main> <!--chat-->
+                    <div class="head-chat"> <!--header chat-->
                         <div class="info-chat">
                             <img src="./img/avatar_1.jpg" alt="avatar 1">
                             <span>
@@ -63,8 +72,44 @@
                         </div>
                         
                     </div>
-                    <div class="conversation">
+                    <div class="conversation"> <!--conversation-->
                         <div class="container-sm">
+                            <div class="row message">
+                                <div class="recived-message">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur totam distinctio accusamus veniam pariatur placeat, omnis rerum nesciunt doloribus ex. Cumque veniam natus ratione nemo pariatur eaque, earum atque beatae.</p>
+                                    <div class="info-message">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <div class="clock">16.23</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row message reverse">
+                                <div class="send-message">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor cumque pariatur expedita, nobis molestiae laborum, doloribus impedit numquam natus quam accusamus explicabo voluptate vero dolorum officiis ut harum excepturi necessitatibus!</p>
+                                    <div class="info-message">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <div class="clock">16.23</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row message">
+                                <div class="recived-message">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur totam distinctio accusamus veniam pariatur placeat, omnis rerum nesciunt doloribus ex. Cumque veniam natus ratione nemo pariatur eaque, earum atque beatae.</p>
+                                    <div class="info-message">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <div class="clock">16.23</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row message reverse">
+                                <div class="send-message">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor cumque pariatur expedita, nobis molestiae laborum, doloribus impedit numquam natus quam accusamus explicabo voluptate vero dolorum officiis ut harum excepturi necessitatibus!</p>
+                                    <div class="info-message">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                        <div class="clock">16.23</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row message">
                                 <div class="recived-message">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur totam distinctio accusamus veniam pariatur placeat, omnis rerum nesciunt doloribus ex. Cumque veniam natus ratione nemo pariatur eaque, earum atque beatae.</p>
@@ -85,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-area">
+                    <div class="text-area"> <!--chatbar whit emoticon-->
                         <i class="fa-solid fa-face-smile"></i>
                         <input type="text" name="" id="" placeholder="Scrivi un messaggio">
                         <i class="fa-solid fa-microphone"></i>
