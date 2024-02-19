@@ -37,7 +37,6 @@ i{
     max-width: 1000px;
     height: 100%;
     margin: auto;
-    padding: 20px 0;
 }
 
 .row{
@@ -106,7 +105,7 @@ aside{
 
 
 .notify{
-    background-color: rgb(180, 179, 179);
+    background-color: rgb(166, 215, 249);
     padding: 0 0 0 10px;
     font-size: 12px;
 }
@@ -124,7 +123,7 @@ aside{
 }
 
 .notify-icon i{
-    color: grey;
+    color: rgb(166, 215, 249);
     font-size: 18px;
     
 }
@@ -168,7 +167,7 @@ aside{
 }
 
 .list-icon li i{
-    color: rgb(215, 218, 221);
+    color: rgb(140, 142, 144);
     font-size: 18px;
 }
 
@@ -208,7 +207,7 @@ aside{
 }
 
 .conversation{
-    padding: 20px 0;
+    
     height: calc(100% - 110px);
     overflow: auto;
 }
@@ -273,7 +272,8 @@ aside{
 }
 
 .text-area input{
-    width: 87%;
+    width: 90%;
+    background-color: white;
     border: none;
     border-radius: 10px;
     line-height: 35px;
@@ -324,9 +324,6 @@ aside{
         font-size: 18px;
     }
 
-    
-
-    
     .text-area i{
         display: block;
     }
@@ -348,9 +345,13 @@ aside{
 @media (min-width: 992px){
     aside{
         width: 260px;
-        
     }
 
+    .container{
+        padding: 50px 0;
+    }
+
+    
     .main-user{
         display: flex;
     }
