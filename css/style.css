@@ -170,23 +170,6 @@ aside{
     border-radius: 10px 0 0 10px;
 }
 
-.list-chat{
-    height: 100%;
-    
-}
-
-.box-chat{
-    display: flex;
-    padding: 10px;
-}
-
-.content-chat{
-    display: flex;
-    align-items: flex-end;
-    gap: 9px;
-    flex-grow: 1;
-    
-}
 
 .content-chat span > div{
     color: rgb(175, 171, 171);
@@ -346,6 +329,7 @@ aside{
     }
 
     .content-chat{
+        display: flex;
         justify-content: center;
         padding: 5px 0 5px 0;
     }
@@ -414,10 +398,20 @@ aside{
         overflow: auto;
     }
 
+    .box-chat{
+        display: flex;
+       
+    }
+
     .content-chat{
         display: flex;
-        justify-content: flex-start;
+        align-items: flex-end;
+        gap: 9px;
+        
+        
     }
+    
+    
 
     .content-chat span{
         display: block;
