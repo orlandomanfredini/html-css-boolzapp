@@ -409,8 +409,26 @@ aside{
         display: flex;
     }
 
-    
+    .list-chat{
+        height: calc( 100% - 80px - 95px);
+        overflow: auto;
+    }
 
+    .content-chat{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .content-chat span{
+        display: block;
+    }
+
+    .chat-hour{
+        display: block;
+        padding: 5px;
+    }
+    
+    
     main{
         width: calc(100% - 260px);
     }
