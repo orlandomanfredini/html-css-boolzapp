@@ -139,6 +139,7 @@ aside{
     
 }
 
+
 .notify-icon i{
     color: rgb(166, 215, 249);
     font-size: 18px;
@@ -209,6 +210,7 @@ aside{
     gap: 9px;
 }
 
+
 .info-chat img{
     width: 50px;
     border-radius: 50%;
@@ -244,6 +246,11 @@ aside{
 
 .message{
     padding-top: 15px;
+    position: relative;
+}
+
+.info-message i:hover .hidden-menu{
+    display: flex;
 }
 
 .recived-message{
@@ -258,8 +265,12 @@ aside{
 .info-message{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-end;
+}
+
+
+.clock{
+    margin-top: auto;
 }
 
 .reverse{
@@ -274,6 +285,42 @@ aside{
     display: flex;
     background-color: rgb(222, 248, 193);
 }
+
+/* BONUS */
+
+.hidden-menu{
+    width: 150px;
+    background-color: rgba(243, 238, 236, 0.7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 32px;
+    right: 40px;
+}
+
+.d-none{
+    display: none;
+}
+
+.hidden-card{
+    padding: 7px;
+}
+
+.hidden-row{
+    padding: 5px 0;
+}
+
+.info-message span:hover .hidden-menu{
+    display: flex;
+}
+
+
+
+
+
+/*  */
 
 .text-area{
     width: 100%;
