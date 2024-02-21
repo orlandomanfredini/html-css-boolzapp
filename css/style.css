@@ -170,6 +170,10 @@ aside{
     border-radius: 10px 0 0 10px;
 }
 
+.box-chat:hover{
+    background-color: rgba(238, 236, 236, 0.6);
+}
+
 
 .content-chat span > div{
     color: rgb(175, 171, 171);
@@ -216,13 +220,15 @@ aside{
     color: gray;
 }
 
-
-
 .action-chat{
     display: flex;
     margin-right: 5px;
     gap: 7px;
     display: none;
+}
+
+.action-chat i:hover{
+    color: rgb(166, 215, 249);
 }
 
 .conversation{
@@ -461,4 +467,45 @@ aside{
 
     
 }
+
+/* animation */
+
+
+
+.notify:hover .rotate{
+    animation: rotate 1.2s ease 0s 1 normal forwards;
+}
+
+@keyframes rotate {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
 
