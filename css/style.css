@@ -184,6 +184,7 @@ aside{
 
 .chat-hour{
     display: none;
+    color: rgb(196, 193, 193);
 }
 
 .head-chat{
@@ -196,6 +197,8 @@ aside{
     background-color: rgba(230, 226, 226, 0.9);
 }
 
+
+
 .info-chat{
     display: flex;
     align-items: flex-end;
@@ -207,6 +210,10 @@ aside{
     border-radius: 50%;
     aspect-ratio: 1;
     object-fit: cover;
+}
+
+.info-chat span > div {
+    color: gray;
 }
 
 
@@ -328,6 +335,7 @@ aside{
 
     .box-chat{
         padding: 0;
+        border-bottom: 1px solid rgb(198, 196, 196);
     }
 
     .content-chat{
@@ -392,15 +400,15 @@ aside{
 
     .box-chat{
         display: flex;
-        border-bottom: 1px solid rgb(227, 224, 224);
+        border-bottom: 1px solid rgb(196, 193, 193);
        
     }
-
-    
 
     .content-chat{
         display: flex;
         align-items: flex-end;
+        justify-content: flex-start;
+        flex-grow: 1;
         gap: 9px;
     }
     
