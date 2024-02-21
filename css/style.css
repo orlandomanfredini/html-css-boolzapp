@@ -470,8 +470,6 @@ aside{
 
 /* animation */
 
-
-
 .notify:hover .rotate{
     animation: rotate 1.2s ease 0s 1 normal forwards;
 }
