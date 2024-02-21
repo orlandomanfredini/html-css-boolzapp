@@ -220,6 +220,7 @@ aside{
 
 .action-chat{
     display: flex;
+    margin-right: 5px;
     gap: 7px;
     display: none;
 }
@@ -402,6 +403,10 @@ aside{
         display: flex;
         border-bottom: 1px solid rgb(196, 193, 193);
        
+    }
+
+    .box-chat:last-child{
+        border-bottom: none;
     }
 
     .content-chat{
