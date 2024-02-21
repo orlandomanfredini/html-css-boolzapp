@@ -267,8 +267,8 @@ aside{
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color:rgba(255, 255, 255, 0.7);
+    justify-content: space-around;
+    background-color:rgba(243, 238, 236, 0.7);
     padding: 6px;
     
     
@@ -283,10 +283,11 @@ aside{
     width: 90%;
     background-color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     line-height: 35px;
     background-color: white;
     margin: auto;
+    margin: 0;
 }
 
 
@@ -301,6 +302,7 @@ aside{
     aside{
         width: 70px;
         display: block;
+        background-color: rgb(77, 147, 137);
         
     }
 
@@ -354,23 +356,13 @@ aside{
         display: block;
     }
 
-    
-
-    
-
-
-
-
-    
-
-
-
 }
 
 
 @media (min-width: 992px){
     aside{
         width: 260px;
+        background-color: white;
     }
 
     .container{
@@ -400,15 +392,16 @@ aside{
 
     .box-chat{
         display: flex;
+        border-bottom: 1px solid rgb(227, 224, 224);
        
     }
+
+    
 
     .content-chat{
         display: flex;
         align-items: flex-end;
         gap: 9px;
-        
-        
     }
     
     
