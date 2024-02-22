@@ -289,7 +289,7 @@ aside{
 /* BONUS */
 
 .hidden-menu{
-    width: 150px;
+    max-width: 150px;
     background-color: rgba(243, 238, 236, 0.7);
     border-radius: 20px;
     display: flex;
@@ -308,13 +308,20 @@ aside{
     padding: 7px;
 }
 
-.hidden-row{
-    padding: 5px 0;
+.hidden-row i{
+    font-size: 10px;
 }
 
-.info-message span:hover .hidden-menu{
-    display: flex;
+
+.reverse .info-message span .hidden-menu{
+    background-color:rgba(222, 248, 193, 0.7) ;
+    transform: translateX(149px);
+
 }
+
+
+
+
 
 
 
@@ -359,6 +366,8 @@ aside{
 /* media query */
 
 @media (min-width: 576px){
+
+    
 
     aside{
         width: 70px;
@@ -431,6 +440,11 @@ aside{
         padding: 50px 0;
     }
 
+    .container-sm{
+        width: 70%;
+        margin: 0 auto;
+    }
+
     
     .main-user{
         display: flex;
@@ -492,6 +506,10 @@ aside{
         display: flex;
         justify-content: space-between;
         
+    }
+
+    .info-message span:hover .hidden-menu{
+        display: flex;
     }
 
     
